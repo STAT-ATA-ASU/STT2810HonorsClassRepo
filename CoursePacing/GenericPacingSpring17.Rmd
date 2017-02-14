@@ -458,6 +458,8 @@ Test yourself: 50% of students in a class are social science majors and the rest
 
 * Complete your LAB/PAPER using the `bookdown::html_document2` format.  Create a folder named `01_MyInterests` under your `StatsWithRProjects` folder. Store your LAB/PAPER `*Rmd` file in in the `01_MyInterests` folder.  Make sure you commit and push your final product to your private repository no later than 5:00 p.m., Feb 17.  Your LAB/PAPER needs to have at least two graphs with captions, at least two numbered and referenced equations, at least one TABLE with a descriptive caption, and properly formatted References. 
 
+* Use this example if you need [one](../RMarkdown/WritingAssignmentB.html)
+
 
 #### Learning Objectives for [*OpenIntro Statistics, 3rd Edition*](https://www.openintro.org/stat/textbook.php?stat_book=os) Section 3.1-3.2 {-}
 
