@@ -677,6 +677,10 @@ Test yourself:
     + Define a Type I error as rejecting the null hypothesis when the null hypothesis is actually true.
 
     + Define a Type II error as failing to reject the null hypothesis when the alternative hypothesis is actually true.
+    
+```{r, echo = FALSE}
+knitr::include_graphics("./Pics/TypeIandII.png", dpi = 96)
+```      
 
 9. Note that the probability of making a Type I error is equivalent to the significance level, and choose a significance level depending on the risks associated with Type I and Type II errors.
 
@@ -805,6 +809,8 @@ Test yourself:
     + CI: $\bar{x}_1 - \bar{x}_2 \pm t_{1-\alpha/2, \nu}\cdot SE$
 
     + HT: $t_{\nu}=\frac{(\bar{x}_1 - \bar{x}_2) -(\mu_1 -\mu_2)}{SE}$ where $SE = \sqrt{\frac{s_1^2}{n_1}+\frac{s^2_2}{n_2}}.$
+    
+    + $\nu = \frac{\left(\frac{s_1^2}{n_1}+\frac{S_2^2}{n_2}\right)^2}{\frac{1}{n_1 - 1}\left(\frac{s_1^2}{n_1}\right)^2 + \frac{1}{n_2 - 1}\left(\frac{s_2^2}{n_2}\right)^2}$
 
 15. Calculate the power of a test for a given effect size and significance level in two steps: 
 
